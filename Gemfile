@@ -54,3 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "graphql-client", "~> 0.15.0"
+
+gem "dotenv-rails", "~> 2.7", :groups => [:development, :test]
