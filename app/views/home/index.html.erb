@@ -1,0 +1,8 @@
+<% if @issues.present? %>
+  <p>Issues of <%= "#{@owner}/#{@repository_name}" %></p>
+  <ul>
+    <% @issues.each do |issue| %>
+      <li><%= issue.node.title %></li>
+    <% end %>
+  </ul>
+<% end %>
